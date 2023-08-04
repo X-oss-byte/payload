@@ -287,16 +287,6 @@ export type Config = {
     /** The route the user will be redirected to after being inactive for too long. */
     inactivityRoute?: string;
     /** Automatically log in as a user when visiting the admin dashboard. */
-<<<<<<< HEAD
-    autoLogin?:
-      | false
-      | {
-          /** The email address of the user to login as */
-          email: string;
-          /** The password of the user to login as */
-          password: string;
-        };
-=======
     autoLogin?: false | {
       /**
        * The email address of the user to login as
@@ -312,7 +302,6 @@ export type Config = {
       */
       prefillOnly?: boolean;
     }
->>>>>>> origin/master
     /**
      * Add extra and/or replace built-in components with custom components
      *
