@@ -10,11 +10,11 @@ const nodeModulesPath = path.resolve(__dirname, '../../../../node_modules');
 const adminFolderPath = path.resolve(__dirname, '../../../admin');
 const bundlerPath = path.resolve(__dirname, '../bundler');
 
-export const getBaseConfig = (payloadConfig: SanitizedConfig): Configuration => ({
+export const getBaseConfig = (
+  payloadConfig: SanitizedConfig,
+): Configuration => ({
   entry: {
-    main: [
-      adminFolderPath,
-    ],
+    main: [adminFolderPath],
   },
   resolveLoader: {
     modules: ['node_modules', path.join(__dirname, nodeModulesPath)],
@@ -62,27 +62,29 @@ export const getBaseConfig = (payloadConfig: SanitizedConfig): Configuration => 
       'payload-user-css': payloadConfig.admin.css,
       dotenv: mockDotENVPath,
       [bundlerPath]: mockModulePath,
+      react: path.join(__dirname, '../../../../node_modules/react'),
+      'react-dom': path.join(__dirname, '../../../../node_modules/react-dom'),
+      'react-i18next': path.join(
+        __dirname,
+        '../../../../node_modules/react-i18next',
+      ),
+      payload: path.join(__dirname, '../../../../'),
     },
     extensions: ['.ts', '.tsx', '.js', '.json'],
   },
   plugins: [
-    new webpack.ProvidePlugin(
-      { process: require.resolve('process/browser') },
-    ),
+    new webpack.ProvidePlugin({ process: require.resolve('process/browser') }),
     new webpack.DefinePlugin(
-      Object.entries(process.env).reduce(
-        (values, [key, val]) => {
-          if (key.indexOf('PAYLOAD_PUBLIC_') === 0) {
-            return ({
-              ...values,
-              [`process.env.${key}`]: `'${val}'`,
-            });
-          }
+      Object.entries(process.env).reduce((values, [key, val]) => {
+        if (key.indexOf('PAYLOAD_PUBLIC_') === 0) {
+          return {
+            ...values,
+            [`process.env.${key}`]: `'${val}'`,
+          };
+        }
 
-          return values;
-        },
-        {},
-      ),
+        return values;
+      }, {}),
     ),
     new HtmlWebpackPlugin({
       template: payloadConfig.admin.indexHTML,
