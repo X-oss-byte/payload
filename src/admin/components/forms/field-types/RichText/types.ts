@@ -7,3 +7,7 @@ export type RichTextProps = Omit<RichTextField, 'type'> & {
 export interface RichTextAdapter {
   component: React.FC<RichTextProps>;
 }
+
+export interface RichTextAdapter {
+  component: React.FC<Props>;
+}
