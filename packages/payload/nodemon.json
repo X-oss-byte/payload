@@ -9,5 +9,5 @@
   ],
   "watch": ["src/**/*.ts", "test/", "packages/**/*.ts"],
   "ext": "ts,js,json",
-  "exec": "ts-node ./packages/payload/test/dev.ts"
+  "exec": "ts-node ./test/dev.ts"
 }

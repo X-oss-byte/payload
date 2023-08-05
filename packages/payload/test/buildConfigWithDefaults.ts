@@ -1,6 +1,6 @@
 import { Config, SanitizedConfig } from '../src/config/types';
 import { buildConfig as buildPayloadConfig } from '../src/config/build';
-import { slateAdapter } from '../packages/richtext-slate/src';
+import { slateAdapter } from '../../richtext-slate/src';
 
 export function buildConfigWithDefaults(
   testConfig?: Partial<Config>,
