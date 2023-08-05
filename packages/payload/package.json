@@ -30,9 +30,6 @@
   "bin": {
     "payload": "bin.js"
   },
-  "workspaces:": [
-    "packages/*"
-  ],
   "scripts": {
     "copyfiles": "copyfiles -u 1 \"src/**/*.{html,css,scss,ttf,woff,woff2,eot,svg,jpg,png}\" dist/",
     "build:tsc": "tsc",

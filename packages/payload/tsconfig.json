@@ -40,7 +40,6 @@
   },
   "include": [
     "src/",
-    "test/"
   ],
   "exclude": [
     "dist",
