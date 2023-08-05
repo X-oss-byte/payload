@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import * as React from 'react';
-import { SanitizedCollectionConfig } from 'payload/dist/collections/config/types';
-import { useConfig } from 'payload/dist/admin/components/utilities/Config';
+import { SanitizedCollectionConfig } from 'payload/src/collections/config/types';
+import { useConfig } from 'payload/src/admin/components/utilities/Config';
 
 type options = { uploads: boolean };
 

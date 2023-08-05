@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import ULIcon from 'payload/dist/admin/components/icons/UnorderedList';
+import ULIcon from 'payload/src/admin/components/icons/UnorderedList';
 import ListButton from '../ListButton';
 
 import './index.scss';

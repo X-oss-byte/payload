@@ -4,618 +4,885 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@date-io/date-fns':
-    specifier: 2.16.0
-    version: 2.16.0(date-fns@2.30.0)
-  '@dnd-kit/core':
-    specifier: 6.0.8
-    version: 6.0.8(react-dom@18.2.0)(react@18.2.0)
-  '@dnd-kit/sortable':
-    specifier: 7.0.2
-    version: 7.0.2(@dnd-kit/core@6.0.8)(react@18.2.0)
-  '@faceless-ui/modal':
-    specifier: 2.0.1
-    version: 2.0.1(react-dom@18.2.0)(react@18.2.0)
-  '@faceless-ui/scroll-info':
-    specifier: 1.3.0
-    version: 1.3.0(react-dom@18.2.0)(react@18.2.0)
-  '@faceless-ui/window-info':
-    specifier: 2.1.1
-    version: 2.1.1(react-dom@18.2.0)(react@18.2.0)
-  '@monaco-editor/react':
-    specifier: 4.5.1
-    version: 4.5.1(monaco-editor@0.38.0)(react-dom@18.2.0)(react@18.2.0)
-  '@swc/core':
-    specifier: 1.3.70
-    version: 1.3.70
-  '@swc/register':
-    specifier: 0.1.10
-    version: 0.1.10(@swc/core@1.3.70)
-  '@types/sharp':
-    specifier: 0.31.1
-    version: 0.31.1
-  body-parser:
-    specifier: 1.20.2
-    version: 1.20.2
-  bson-objectid:
-    specifier: 2.0.4
-    version: 2.0.4
-  compression:
-    specifier: 1.7.4
-    version: 1.7.4
-  conf:
-    specifier: 10.2.0
-    version: 10.2.0
-  connect-history-api-fallback:
-    specifier: 1.6.0
-    version: 1.6.0
-  console-table-printer:
-    specifier: 2.11.2
-    version: 2.11.2
-  css-loader:
-    specifier: 5.2.7
-    version: 5.2.7(webpack@5.88.2)
-  css-minimizer-webpack-plugin:
-    specifier: 5.0.1
-    version: 5.0.1(webpack@5.88.2)
-  dataloader:
-    specifier: 2.2.2
-    version: 2.2.2
-  date-fns:
-    specifier: 2.30.0
-    version: 2.30.0
-  deep-equal:
-    specifier: 2.2.2
-    version: 2.2.2
-  deepmerge:
-    specifier: 4.3.1
-    version: 4.3.1
-  dotenv:
-    specifier: 8.6.0
-    version: 8.6.0
-  express:
-    specifier: 4.18.2
-    version: 4.18.2
-  express-fileupload:
-    specifier: 1.4.0
-    version: 1.4.0
-  express-rate-limit:
-    specifier: 5.5.1
-    version: 5.5.1
-  file-loader:
-    specifier: 6.2.0
-    version: 6.2.0(webpack@5.88.2)
-  file-type:
-    specifier: 16.5.4
-    version: 16.5.4
-  find-up:
-    specifier: 4.1.0
-    version: 4.1.0
-  flatley:
-    specifier: 5.2.0
-    version: 5.2.0
-  fs-extra:
-    specifier: 10.1.0
-    version: 10.1.0
-  get-tsconfig:
-    specifier: 4.6.2
-    version: 4.6.2
-  graphql:
-    specifier: 16.7.1
-    version: 16.7.1
-  graphql-http:
-    specifier: 1.21.0
-    version: 1.21.0(graphql@16.7.1)
-  graphql-playground-middleware-express:
-    specifier: 1.7.23
-    version: 1.7.23(express@4.18.2)
-  graphql-query-complexity:
-    specifier: 0.12.0
-    version: 0.12.0(graphql@16.7.1)
-  graphql-scalars:
-    specifier: 1.22.2
-    version: 1.22.2(graphql@16.7.1)
-  graphql-type-json:
-    specifier: 0.3.2
-    version: 0.3.2(graphql@16.7.1)
-  html-webpack-plugin:
-    specifier: 5.5.3
-    version: 5.5.3(webpack@5.88.2)
-  http-status:
-    specifier: 1.6.2
-    version: 1.6.2
-  i18next:
-    specifier: 22.5.1
-    version: 22.5.1
-  i18next-browser-languagedetector:
-    specifier: 6.1.8
-    version: 6.1.8
-  i18next-http-middleware:
-    specifier: 3.3.2
-    version: 3.3.2
-  is-hotkey:
-    specifier: 0.2.0
-    version: 0.2.0
-  is-plain-object:
-    specifier: 5.0.0
-    version: 5.0.0
-  isomorphic-fetch:
-    specifier: 3.0.0
-    version: 3.0.0
-  joi:
-    specifier: 17.9.2
-    version: 17.9.2
-  json-schema-to-typescript:
-    specifier: 11.0.3
-    version: 11.0.3
-  jsonwebtoken:
-    specifier: 9.0.1
-    version: 9.0.1
-  jwt-decode:
-    specifier: 3.1.2
-    version: 3.1.2
-  md5:
-    specifier: 2.3.0
-    version: 2.3.0
-  method-override:
-    specifier: 3.0.0
-    version: 3.0.0
-  micro-memoize:
-    specifier: 4.1.2
-    version: 4.1.2
-  mini-css-extract-plugin:
-    specifier: 1.6.2
-    version: 1.6.2(webpack@5.88.2)
-  minimist:
-    specifier: 1.2.8
-    version: 1.2.8
-  mkdirp:
-    specifier: 1.0.4
-    version: 1.0.4
-  monaco-editor:
-    specifier: 0.38.0
-    version: 0.38.0
-  mongoose:
-    specifier: 6.11.4
-    version: 6.11.4
-  mongoose-aggregate-paginate-v2:
-    specifier: 1.0.6
-    version: 1.0.6
-  mongoose-paginate-v2:
-    specifier: 1.7.22
-    version: 1.7.22
-  nodemailer:
-    specifier: 6.9.4
-    version: 6.9.4
-  object-to-formdata:
-    specifier: 4.5.1
-    version: 4.5.1
-  passport:
-    specifier: 0.6.0
-    version: 0.6.0
-  passport-anonymous:
-    specifier: 1.0.1
-    version: 1.0.1
-  passport-headerapikey:
-    specifier: 1.2.2
-    version: 1.2.2
-  passport-jwt:
-    specifier: 4.0.1
-    version: 4.0.1
-  passport-local:
-    specifier: 1.0.0
-    version: 1.0.0
-  path-browserify:
-    specifier: 1.0.1
-    version: 1.0.1
-  pino:
-    specifier: 6.14.0
-    version: 6.14.0
-  pino-pretty:
-    specifier: 9.4.1
-    version: 9.4.1
-  pluralize:
-    specifier: 8.0.0
-    version: 8.0.0
-  postcss:
-    specifier: 8.4.27
-    version: 8.4.27
-  postcss-loader:
-    specifier: 6.2.1
-    version: 6.2.1(postcss@8.4.27)(webpack@5.88.2)
-  postcss-preset-env:
-    specifier: 9.0.0
-    version: 9.0.0(postcss@8.4.27)
-  probe-image-size:
-    specifier: 6.0.0
-    version: 6.0.0
-  process:
-    specifier: 0.11.10
-    version: 0.11.10
-  qs:
-    specifier: 6.11.2
-    version: 6.11.2
-  qs-middleware:
-    specifier: 1.0.3
-    version: 1.0.3
-  react:
-    specifier: 18.2.0
-    version: 18.2.0
-  react-animate-height:
-    specifier: 2.1.2
-    version: 2.1.2(react-dom@18.2.0)(react@18.2.0)
-  react-datepicker:
-    specifier: 4.16.0
-    version: 4.16.0(react-dom@18.2.0)(react@18.2.0)
-  react-diff-viewer-continued:
-    specifier: 3.2.6
-    version: 3.2.6(react-dom@18.2.0)(react@18.2.0)
-  react-dom:
-    specifier: 18.2.0
-    version: 18.2.0(react@18.2.0)
-  react-helmet:
-    specifier: 6.1.0
-    version: 6.1.0(react@18.2.0)
-  react-i18next:
-    specifier: 11.18.6
-    version: 11.18.6(i18next@22.5.1)(react-dom@18.2.0)(react@18.2.0)
-  react-router-dom:
-    specifier: 5.3.4
-    version: 5.3.4(react@18.2.0)
-  react-router-navigation-prompt:
-    specifier: 1.9.6
-    version: 1.9.6(react-router-dom@5.3.4)(react@18.2.0)
-  react-select:
-    specifier: 5.7.4
-    version: 5.7.4(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)
-  react-toastify:
-    specifier: 8.2.0
-    version: 8.2.0(react-dom@18.2.0)(react@18.2.0)
-  sanitize-filename:
-    specifier: 1.6.3
-    version: 1.6.3
-  sass:
-    specifier: 1.64.0
-    version: 1.64.0
-  sass-loader:
-    specifier: 12.6.0
-    version: 12.6.0(sass@1.64.0)(webpack@5.88.2)
-  scheduler:
-    specifier: 0.23.0
-    version: 0.23.0
-  scmp:
-    specifier: 2.1.0
-    version: 2.1.0
-  sharp:
-    specifier: 0.31.3
-    version: 0.31.3
-  slate:
-    specifier: 0.91.4
-    version: 0.91.4
-  slate-history:
-    specifier: 0.86.0
-    version: 0.86.0(slate@0.91.4)
-  slate-hyperscript:
-    specifier: 0.81.3
-    version: 0.81.3(slate@0.91.4)
-  slate-react:
-    specifier: 0.92.0
-    version: 0.92.0(react-dom@18.2.0)(react@18.2.0)(slate@0.91.4)
-  style-loader:
-    specifier: 2.0.0
-    version: 2.0.0(webpack@5.88.2)
-  swc-loader:
-    specifier: 0.2.3
-    version: 0.2.3(@swc/core@1.3.70)(webpack@5.88.2)
-  swc-minify-webpack-plugin:
-    specifier: 2.1.1
-    version: 2.1.1(@swc/core@1.3.70)(webpack@5.88.2)
-  terser-webpack-plugin:
-    specifier: 5.3.9
-    version: 5.3.9(@swc/core@1.3.70)(webpack@5.88.2)
-  ts-essentials:
-    specifier: 7.0.3
-    version: 7.0.3(typescript@4.9.5)
-  url-loader:
-    specifier: 4.1.1
-    version: 4.1.1(file-loader@6.2.0)(webpack@5.88.2)
-  use-context-selector:
-    specifier: 1.4.1
-    version: 1.4.1(react-dom@18.2.0)(react@18.2.0)(scheduler@0.23.0)
-  uuid:
-    specifier: 8.3.2
-    version: 8.3.2
-  webpack:
-    specifier: 5.88.2
-    version: 5.88.2(@swc/core@1.3.70)(webpack-cli@4.10.0)
-  webpack-bundle-analyzer:
-    specifier: 4.9.0
-    version: 4.9.0
-  webpack-cli:
-    specifier: 4.10.0
-    version: 4.10.0(webpack-bundle-analyzer@4.9.0)(webpack@5.88.2)
-  webpack-dev-middleware:
-    specifier: 6.0.1
-    version: 6.0.1(webpack@5.88.2)
-  webpack-hot-middleware:
-    specifier: 2.25.4
-    version: 2.25.4
+importers:
 
-devDependencies:
-  '@playwright/test':
-    specifier: 1.33.0
-    version: 1.33.0
-  '@release-it/conventional-changelog':
-    specifier: 7.0.0
-    version: 7.0.0(release-it@16.1.3)
-  '@swc/jest':
-    specifier: 0.2.27
-    version: 0.2.27(@swc/core@1.3.70)
-  '@testing-library/jest-dom':
-    specifier: 5.17.0
-    version: 5.17.0
-  '@testing-library/react':
-    specifier: 13.4.0
-    version: 13.4.0(react-dom@18.2.0)(react@18.2.0)
-  '@trbl/eslint-config':
-    specifier: 3.0.1
-    version: 3.0.1(eslint-plugin-import@2.27.5)(eslint-plugin-jest-dom@4.0.3)(eslint-plugin-jest@27.2.3)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-node@11.1.0)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.0)(eslint@8.45.0)
-  '@types/asap':
-    specifier: 2.0.0
-    version: 2.0.0
-  '@types/body-parser':
-    specifier: 1.19.2
-    version: 1.19.2
-  '@types/compression':
-    specifier: 1.7.2
-    version: 1.7.2
-  '@types/connect-history-api-fallback':
-    specifier: 1.5.0
-    version: 1.5.0
-  '@types/eslint':
-    specifier: 7.29.0
-    version: 7.29.0
-  '@types/express':
-    specifier: 4.17.17
-    version: 4.17.17
-  '@types/express-fileupload':
-    specifier: 1.4.1
-    version: 1.4.1
-  '@types/express-rate-limit':
-    specifier: 5.1.3
-    version: 5.1.3
-  '@types/express-serve-static-core':
-    specifier: 4.17.35
-    version: 4.17.35
-  '@types/extract-text-webpack-plugin':
-    specifier: 3.0.7
-    version: 3.0.7
-  '@types/file-loader':
-    specifier: 4.2.1
-    version: 4.2.1
-  '@types/hapi__joi':
-    specifier: 17.1.9
-    version: 17.1.9
-  '@types/html-webpack-plugin':
-    specifier: 3.2.6
-    version: 3.2.6
-  '@types/ignore-styles':
-    specifier: 5.0.0
-    version: 5.0.0
-  '@types/is-hotkey':
-    specifier: 0.1.7
-    version: 0.1.7
-  '@types/isomorphic-fetch':
-    specifier: 0.0.36
-    version: 0.0.36
-  '@types/jest':
-    specifier: 26.0.24
-    version: 26.0.24
-  '@types/joi':
-    specifier: 14.3.4
-    version: 14.3.4
-  '@types/json-schema':
-    specifier: 7.0.12
-    version: 7.0.12
-  '@types/jsonwebtoken':
-    specifier: 8.5.9
-    version: 8.5.9
-  '@types/method-override':
-    specifier: 0.0.32
-    version: 0.0.32
-  '@types/mime':
-    specifier: 2.0.3
-    version: 2.0.3
-  '@types/mini-css-extract-plugin':
-    specifier: 1.4.3
-    version: 1.4.3(@swc/core@1.3.70)(webpack-cli@4.10.0)
-  '@types/minimist':
-    specifier: 1.2.2
-    version: 1.2.2
-  '@types/mkdirp':
-    specifier: 1.0.2
-    version: 1.0.2
-  '@types/mongoose-aggregate-paginate-v2':
-    specifier: 1.0.9
-    version: 1.0.9
-  '@types/node':
-    specifier: 20.4.2
-    version: 20.4.2
-  '@types/node-fetch':
-    specifier: 2.6.4
-    version: 2.6.4
-  '@types/nodemailer':
-    specifier: 6.4.8
-    version: 6.4.8
-  '@types/optimize-css-assets-webpack-plugin':
-    specifier: 5.0.5
-    version: 5.0.5
-  '@types/passport':
-    specifier: 1.0.12
-    version: 1.0.12
-  '@types/passport-anonymous':
-    specifier: 1.0.3
-    version: 1.0.3
-  '@types/passport-jwt':
-    specifier: 3.0.9
-    version: 3.0.9
-  '@types/passport-local':
-    specifier: 1.0.35
-    version: 1.0.35
-  '@types/pluralize':
-    specifier: 0.0.29
-    version: 0.0.29
-  '@types/prismjs':
-    specifier: 1.26.0
-    version: 1.26.0
-  '@types/probe-image-size':
-    specifier: 7.2.0
-    version: 7.2.0
-  '@types/prop-types':
-    specifier: 15.7.5
-    version: 15.7.5
-  '@types/qs':
-    specifier: 6.9.7
-    version: 6.9.7
-  '@types/qs-middleware':
-    specifier: 1.0.1
-    version: 1.0.1
-  '@types/react':
-    specifier: 18.2.15
-    version: 18.2.15
-  '@types/react-datepicker':
-    specifier: 4.11.2
-    version: 4.11.2(react-dom@18.2.0)(react@18.2.0)
-  '@types/react-dom':
-    specifier: 18.2.7
-    version: 18.2.7
-  '@types/react-helmet':
-    specifier: 6.1.6
-    version: 6.1.6
-  '@types/react-router-dom':
-    specifier: 5.3.3
-    version: 5.3.3
-  '@types/shelljs':
-    specifier: 0.8.12
-    version: 0.8.12
-  '@types/testing-library__jest-dom':
-    specifier: 5.14.8
-    version: 5.14.8
-  '@types/uuid':
-    specifier: 8.3.4
-    version: 8.3.4
-  '@types/webpack-bundle-analyzer':
-    specifier: 4.6.0
-    version: 4.6.0(@swc/core@1.3.70)(webpack-cli@4.10.0)
-  '@types/webpack-env':
-    specifier: 1.18.1
-    version: 1.18.1
-  '@types/webpack-hot-middleware':
-    specifier: 2.25.6
-    version: 2.25.6(@swc/core@1.3.70)(webpack-cli@4.10.0)
-  '@typescript-eslint/eslint-plugin':
-    specifier: 5.62.0
-    version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.45.0)(typescript@4.9.5)
-  '@typescript-eslint/parser':
-    specifier: 5.62.0
-    version: 5.62.0(eslint@8.45.0)(typescript@4.9.5)
-  confusing-browser-globals:
-    specifier: 1.0.11
-    version: 1.0.11
-  copyfiles:
-    specifier: 2.4.1
-    version: 2.4.1
-  cross-env:
-    specifier: 7.0.3
-    version: 7.0.3
-  eslint:
-    specifier: 8.45.0
-    version: 8.45.0
-  eslint-plugin-import:
-    specifier: 2.27.5
-    version: 2.27.5(@typescript-eslint/parser@5.62.0)(eslint@8.45.0)
-  eslint-plugin-jest:
-    specifier: 27.2.3
-    version: 27.2.3(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.45.0)(jest@29.6.1)(typescript@4.9.5)
-  eslint-plugin-jest-dom:
-    specifier: 4.0.3
-    version: 4.0.3(eslint@8.45.0)
-  eslint-plugin-jsx-a11y:
-    specifier: 6.7.1
-    version: 6.7.1(eslint@8.45.0)
-  eslint-plugin-node:
-    specifier: 11.1.0
-    version: 11.1.0(eslint@8.45.0)
-  eslint-plugin-playwright:
-    specifier: 0.12.0
-    version: 0.12.0(eslint-plugin-jest@27.2.3)(eslint@8.45.0)
-  eslint-plugin-react:
-    specifier: 7.33.0
-    version: 7.33.0(eslint@8.45.0)
-  eslint-plugin-react-hooks:
-    specifier: 4.6.0
-    version: 4.6.0(eslint@8.45.0)
-  form-data:
-    specifier: 3.0.1
-    version: 3.0.1
-  get-port:
-    specifier: 5.1.1
-    version: 5.1.1
-  glob:
-    specifier: 8.1.0
-    version: 8.1.0
-  graphql-request:
-    specifier: 3.7.0
-    version: 3.7.0(graphql@16.7.1)
-  jest:
-    specifier: 29.6.1
-    version: 29.6.1(@types/node@20.4.2)(ts-node@10.9.1)
-  jest-environment-jsdom:
-    specifier: 29.6.1
-    version: 29.6.1
-  mongodb-memory-server:
-    specifier: 8.13.0
-    version: 8.13.0
-  node-fetch:
-    specifier: 2.6.12
-    version: 2.6.12
-  nodemon:
-    specifier: 3.0.1
-    version: 3.0.1
-  object.assign:
-    specifier: 4.1.4
-    version: 4.1.4
-  object.entries:
-    specifier: 1.1.6
-    version: 1.1.6
-  passport-strategy:
-    specifier: 1.0.0
-    version: 1.0.0
-  release-it:
-    specifier: 16.1.3
-    version: 16.1.3
-  rimraf:
-    specifier: 3.0.2
-    version: 3.0.2
-  serve-static:
-    specifier: 1.15.0
-    version: 1.15.0
-  shelljs:
-    specifier: 0.8.5
-    version: 0.8.5
-  slash:
-    specifier: 3.0.0
-    version: 3.0.0
-  terser:
-    specifier: 5.19.2
-    version: 5.19.2
-  ts-node:
-    specifier: 10.9.1
-    version: 10.9.1(@swc/core@1.3.70)(@types/node@20.4.2)(typescript@4.9.5)
-  typescript:
-    specifier: 4.9.5
-    version: 4.9.5
+  .:
+    devDependencies:
+      '@playwright/test':
+        specifier: 1.33.0
+        version: 1.33.0
+      '@release-it/conventional-changelog':
+        specifier: 7.0.0
+        version: 7.0.0(release-it@16.1.3)
+      '@swc/jest':
+        specifier: 0.2.27
+        version: 0.2.27(@swc/core@1.3.70)
+      '@testing-library/jest-dom':
+        specifier: 5.17.0
+        version: 5.17.0
+      '@testing-library/react':
+        specifier: 13.4.0
+        version: 13.4.0(react-dom@18.2.0)(react@18.2.0)
+      '@trbl/eslint-config':
+        specifier: 3.0.1
+        version: 3.0.1(eslint-plugin-import@2.27.5)(eslint-plugin-jest-dom@4.0.3)(eslint-plugin-jest@27.2.3)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-node@11.1.0)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.0)(eslint@8.45.0)
+      '@types/asap':
+        specifier: 2.0.0
+        version: 2.0.0
+      '@types/body-parser':
+        specifier: 1.19.2
+        version: 1.19.2
+      '@types/compression':
+        specifier: 1.7.2
+        version: 1.7.2
+      '@types/connect-history-api-fallback':
+        specifier: 1.5.0
+        version: 1.5.0
+      '@types/eslint':
+        specifier: 7.29.0
+        version: 7.29.0
+      '@types/express':
+        specifier: 4.17.17
+        version: 4.17.17
+      '@types/express-fileupload':
+        specifier: 1.4.1
+        version: 1.4.1
+      '@types/express-rate-limit':
+        specifier: 5.1.3
+        version: 5.1.3
+      '@types/express-serve-static-core':
+        specifier: 4.17.35
+        version: 4.17.35
+      '@types/extract-text-webpack-plugin':
+        specifier: 3.0.7
+        version: 3.0.7
+      '@types/file-loader':
+        specifier: 4.2.1
+        version: 4.2.1
+      '@types/hapi__joi':
+        specifier: 17.1.9
+        version: 17.1.9
+      '@types/html-webpack-plugin':
+        specifier: 3.2.6
+        version: 3.2.6
+      '@types/ignore-styles':
+        specifier: 5.0.0
+        version: 5.0.0
+      '@types/is-hotkey':
+        specifier: 0.1.7
+        version: 0.1.7
+      '@types/isomorphic-fetch':
+        specifier: 0.0.36
+        version: 0.0.36
+      '@types/jest':
+        specifier: 26.0.24
+        version: 26.0.24
+      '@types/joi':
+        specifier: 14.3.4
+        version: 14.3.4
+      '@types/json-schema':
+        specifier: 7.0.12
+        version: 7.0.12
+      '@types/jsonwebtoken':
+        specifier: 8.5.9
+        version: 8.5.9
+      '@types/method-override':
+        specifier: 0.0.32
+        version: 0.0.32
+      '@types/mime':
+        specifier: 2.0.3
+        version: 2.0.3
+      '@types/mini-css-extract-plugin':
+        specifier: 1.4.3
+        version: 1.4.3(@swc/core@1.3.70)(webpack-cli@4.10.0)
+      '@types/minimist':
+        specifier: 1.2.2
+        version: 1.2.2
+      '@types/mkdirp':
+        specifier: 1.0.2
+        version: 1.0.2
+      '@types/mongoose-aggregate-paginate-v2':
+        specifier: 1.0.9
+        version: 1.0.9
+      '@types/node':
+        specifier: 20.4.2
+        version: 20.4.2
+      '@types/node-fetch':
+        specifier: 2.6.4
+        version: 2.6.4
+      '@types/nodemailer':
+        specifier: 6.4.8
+        version: 6.4.8
+      '@types/optimize-css-assets-webpack-plugin':
+        specifier: 5.0.5
+        version: 5.0.5
+      '@types/passport':
+        specifier: 1.0.12
+        version: 1.0.12
+      '@types/passport-anonymous':
+        specifier: 1.0.3
+        version: 1.0.3
+      '@types/passport-jwt':
+        specifier: 3.0.9
+        version: 3.0.9
+      '@types/passport-local':
+        specifier: 1.0.35
+        version: 1.0.35
+      '@types/pluralize':
+        specifier: 0.0.29
+        version: 0.0.29
+      '@types/prismjs':
+        specifier: 1.26.0
+        version: 1.26.0
+      '@types/probe-image-size':
+        specifier: 7.2.0
+        version: 7.2.0
+      '@types/prop-types':
+        specifier: 15.7.5
+        version: 15.7.5
+      '@types/qs':
+        specifier: 6.9.7
+        version: 6.9.7
+      '@types/qs-middleware':
+        specifier: 1.0.1
+        version: 1.0.1
+      '@types/react':
+        specifier: 18.2.15
+        version: 18.2.15
+      '@types/react-datepicker':
+        specifier: 4.11.2
+        version: 4.11.2(react-dom@18.2.0)(react@18.2.0)
+      '@types/react-dom':
+        specifier: 18.2.7
+        version: 18.2.7
+      '@types/react-helmet':
+        specifier: 6.1.6
+        version: 6.1.6
+      '@types/react-router-dom':
+        specifier: 5.3.3
+        version: 5.3.3
+      '@types/shelljs':
+        specifier: 0.8.12
+        version: 0.8.12
+      '@types/testing-library__jest-dom':
+        specifier: 5.14.8
+        version: 5.14.8
+      '@types/uuid':
+        specifier: 8.3.4
+        version: 8.3.4
+      '@types/webpack-bundle-analyzer':
+        specifier: 4.6.0
+        version: 4.6.0(@swc/core@1.3.70)(webpack-cli@4.10.0)
+      '@types/webpack-env':
+        specifier: 1.18.1
+        version: 1.18.1
+      '@types/webpack-hot-middleware':
+        specifier: 2.25.6
+        version: 2.25.6(@swc/core@1.3.70)(webpack-cli@4.10.0)
+      '@typescript-eslint/eslint-plugin':
+        specifier: 5.62.0
+        version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.45.0)(typescript@4.9.5)
+      '@typescript-eslint/parser':
+        specifier: 5.62.0
+        version: 5.62.0(eslint@8.45.0)(typescript@4.9.5)
+      confusing-browser-globals:
+        specifier: 1.0.11
+        version: 1.0.11
+      copyfiles:
+        specifier: 2.4.1
+        version: 2.4.1
+      cross-env:
+        specifier: 7.0.3
+        version: 7.0.3
+      eslint:
+        specifier: 8.45.0
+        version: 8.45.0
+      eslint-plugin-import:
+        specifier: 2.27.5
+        version: 2.27.5(@typescript-eslint/parser@5.62.0)(eslint@8.45.0)
+      eslint-plugin-jest:
+        specifier: 27.2.3
+        version: 27.2.3(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.45.0)(jest@29.6.1)(typescript@4.9.5)
+      eslint-plugin-jest-dom:
+        specifier: 4.0.3
+        version: 4.0.3(eslint@8.45.0)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.7.1
+        version: 6.7.1(eslint@8.45.0)
+      eslint-plugin-node:
+        specifier: 11.1.0
+        version: 11.1.0(eslint@8.45.0)
+      eslint-plugin-playwright:
+        specifier: 0.12.0
+        version: 0.12.0(eslint-plugin-jest@27.2.3)(eslint@8.45.0)
+      eslint-plugin-react:
+        specifier: 7.33.0
+        version: 7.33.0(eslint@8.45.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.45.0)
+      form-data:
+        specifier: 3.0.1
+        version: 3.0.1
+      get-port:
+        specifier: 5.1.1
+        version: 5.1.1
+      glob:
+        specifier: 8.1.0
+        version: 8.1.0
+      graphql-request:
+        specifier: 3.7.0
+        version: 3.7.0(graphql@16.7.1)
+      jest:
+        specifier: 29.6.1
+        version: 29.6.1(@types/node@20.4.2)(ts-node@10.9.1)
+      jest-environment-jsdom:
+        specifier: 29.6.1
+        version: 29.6.1
+      mongodb-memory-server:
+        specifier: 8.13.0
+        version: 8.13.0
+      node-fetch:
+        specifier: 2.6.12
+        version: 2.6.12
+      nodemon:
+        specifier: 3.0.1
+        version: 3.0.1
+      object.assign:
+        specifier: 4.1.4
+        version: 4.1.4
+      object.entries:
+        specifier: 1.1.6
+        version: 1.1.6
+      passport-strategy:
+        specifier: 1.0.0
+        version: 1.0.0
+      release-it:
+        specifier: 16.1.3
+        version: 16.1.3
+      rimraf:
+        specifier: 3.0.2
+        version: 3.0.2
+      serve-static:
+        specifier: 1.15.0
+        version: 1.15.0
+      shelljs:
+        specifier: 0.8.5
+        version: 0.8.5
+      slash:
+        specifier: 3.0.0
+        version: 3.0.0
+      terser:
+        specifier: 5.19.2
+        version: 5.19.2
+      ts-node:
+        specifier: 10.9.1
+        version: 10.9.1(@swc/core@1.3.70)(@types/node@20.4.2)(typescript@4.9.5)
+      typescript:
+        specifier: 4.9.5
+        version: 4.9.5
+
+  packages/payload:
+    dependencies:
+      '@date-io/date-fns':
+        specifier: 2.16.0
+        version: 2.16.0(date-fns@2.30.0)
+      '@dnd-kit/core':
+        specifier: 6.0.8
+        version: 6.0.8(react-dom@18.2.0)(react@18.2.0)
+      '@dnd-kit/sortable':
+        specifier: 7.0.2
+        version: 7.0.2(@dnd-kit/core@6.0.8)(react@18.2.0)
+      '@faceless-ui/modal':
+        specifier: 2.0.1
+        version: 2.0.1(react-dom@18.2.0)(react@18.2.0)
+      '@faceless-ui/scroll-info':
+        specifier: 1.3.0
+        version: 1.3.0(react-dom@18.2.0)(react@18.2.0)
+      '@faceless-ui/window-info':
+        specifier: 2.1.1
+        version: 2.1.1(react-dom@18.2.0)(react@18.2.0)
+      '@monaco-editor/react':
+        specifier: 4.5.1
+        version: 4.5.1(monaco-editor@0.38.0)(react-dom@18.2.0)(react@18.2.0)
+      '@swc/core':
+        specifier: 1.3.70
+        version: 1.3.70
+      '@swc/register':
+        specifier: 0.1.10
+        version: 0.1.10(@swc/core@1.3.70)
+      '@types/sharp':
+        specifier: 0.31.1
+        version: 0.31.1
+      body-parser:
+        specifier: 1.20.2
+        version: 1.20.2
+      bson-objectid:
+        specifier: 2.0.4
+        version: 2.0.4
+      compression:
+        specifier: 1.7.4
+        version: 1.7.4
+      conf:
+        specifier: 10.2.0
+        version: 10.2.0
+      connect-history-api-fallback:
+        specifier: 1.6.0
+        version: 1.6.0
+      console-table-printer:
+        specifier: 2.11.2
+        version: 2.11.2
+      css-loader:
+        specifier: 5.2.7
+        version: 5.2.7(webpack@5.88.2)
+      css-minimizer-webpack-plugin:
+        specifier: 5.0.1
+        version: 5.0.1(webpack@5.88.2)
+      dataloader:
+        specifier: 2.2.2
+        version: 2.2.2
+      date-fns:
+        specifier: 2.30.0
+        version: 2.30.0
+      deep-equal:
+        specifier: 2.2.2
+        version: 2.2.2
+      deepmerge:
+        specifier: 4.3.1
+        version: 4.3.1
+      dotenv:
+        specifier: 8.6.0
+        version: 8.6.0
+      express:
+        specifier: 4.18.2
+        version: 4.18.2
+      express-fileupload:
+        specifier: 1.4.0
+        version: 1.4.0
+      express-rate-limit:
+        specifier: 5.5.1
+        version: 5.5.1
+      file-loader:
+        specifier: 6.2.0
+        version: 6.2.0(webpack@5.88.2)
+      file-type:
+        specifier: 16.5.4
+        version: 16.5.4
+      find-up:
+        specifier: 4.1.0
+        version: 4.1.0
+      flatley:
+        specifier: 5.2.0
+        version: 5.2.0
+      fs-extra:
+        specifier: 10.1.0
+        version: 10.1.0
+      get-tsconfig:
+        specifier: 4.6.2
+        version: 4.6.2
+      graphql:
+        specifier: 16.7.1
+        version: 16.7.1
+      graphql-http:
+        specifier: 1.21.0
+        version: 1.21.0(graphql@16.7.1)
+      graphql-playground-middleware-express:
+        specifier: 1.7.23
+        version: 1.7.23(express@4.18.2)
+      graphql-query-complexity:
+        specifier: 0.12.0
+        version: 0.12.0(graphql@16.7.1)
+      graphql-scalars:
+        specifier: 1.22.2
+        version: 1.22.2(graphql@16.7.1)
+      graphql-type-json:
+        specifier: 0.3.2
+        version: 0.3.2(graphql@16.7.1)
+      html-webpack-plugin:
+        specifier: 5.5.3
+        version: 5.5.3(webpack@5.88.2)
+      http-status:
+        specifier: 1.6.2
+        version: 1.6.2
+      i18next:
+        specifier: 22.5.1
+        version: 22.5.1
+      i18next-browser-languagedetector:
+        specifier: 6.1.8
+        version: 6.1.8
+      i18next-http-middleware:
+        specifier: 3.3.2
+        version: 3.3.2
+      is-hotkey:
+        specifier: 0.2.0
+        version: 0.2.0
+      is-plain-object:
+        specifier: 5.0.0
+        version: 5.0.0
+      isomorphic-fetch:
+        specifier: 3.0.0
+        version: 3.0.0
+      joi:
+        specifier: 17.9.2
+        version: 17.9.2
+      json-schema-to-typescript:
+        specifier: 11.0.3
+        version: 11.0.3
+      jsonwebtoken:
+        specifier: 9.0.1
+        version: 9.0.1
+      jwt-decode:
+        specifier: 3.1.2
+        version: 3.1.2
+      md5:
+        specifier: 2.3.0
+        version: 2.3.0
+      method-override:
+        specifier: 3.0.0
+        version: 3.0.0
+      micro-memoize:
+        specifier: 4.1.2
+        version: 4.1.2
+      mini-css-extract-plugin:
+        specifier: 1.6.2
+        version: 1.6.2(webpack@5.88.2)
+      minimist:
+        specifier: 1.2.8
+        version: 1.2.8
+      mkdirp:
+        specifier: 1.0.4
+        version: 1.0.4
+      monaco-editor:
+        specifier: 0.38.0
+        version: 0.38.0
+      mongoose:
+        specifier: 6.11.4
+        version: 6.11.4
+      mongoose-aggregate-paginate-v2:
+        specifier: 1.0.6
+        version: 1.0.6
+      mongoose-paginate-v2:
+        specifier: 1.7.22
+        version: 1.7.22
+      nodemailer:
+        specifier: 6.9.4
+        version: 6.9.4
+      object-to-formdata:
+        specifier: 4.5.1
+        version: 4.5.1
+      passport:
+        specifier: 0.6.0
+        version: 0.6.0
+      passport-anonymous:
+        specifier: 1.0.1
+        version: 1.0.1
+      passport-headerapikey:
+        specifier: 1.2.2
+        version: 1.2.2
+      passport-jwt:
+        specifier: 4.0.1
+        version: 4.0.1
+      passport-local:
+        specifier: 1.0.0
+        version: 1.0.0
+      path-browserify:
+        specifier: 1.0.1
+        version: 1.0.1
+      pino:
+        specifier: 6.14.0
+        version: 6.14.0
+      pino-pretty:
+        specifier: 9.4.1
+        version: 9.4.1
+      pluralize:
+        specifier: 8.0.0
+        version: 8.0.0
+      postcss:
+        specifier: 8.4.27
+        version: 8.4.27
+      postcss-loader:
+        specifier: 6.2.1
+        version: 6.2.1(postcss@8.4.27)(webpack@5.88.2)
+      postcss-preset-env:
+        specifier: 9.0.0
+        version: 9.0.0(postcss@8.4.27)
+      probe-image-size:
+        specifier: 6.0.0
+        version: 6.0.0
+      process:
+        specifier: 0.11.10
+        version: 0.11.10
+      qs:
+        specifier: 6.11.2
+        version: 6.11.2
+      qs-middleware:
+        specifier: 1.0.3
+        version: 1.0.3
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+      react-animate-height:
+        specifier: 2.1.2
+        version: 2.1.2(react-dom@18.2.0)(react@18.2.0)
+      react-datepicker:
+        specifier: 4.16.0
+        version: 4.16.0(react-dom@18.2.0)(react@18.2.0)
+      react-diff-viewer-continued:
+        specifier: 3.2.6
+        version: 3.2.6(react-dom@18.2.0)(react@18.2.0)
+      react-dom:
+        specifier: 18.2.0
+        version: 18.2.0(react@18.2.0)
+      react-helmet:
+        specifier: 6.1.0
+        version: 6.1.0(react@18.2.0)
+      react-i18next:
+        specifier: 11.18.6
+        version: 11.18.6(i18next@22.5.1)(react-dom@18.2.0)(react@18.2.0)
+      react-router-dom:
+        specifier: 5.3.4
+        version: 5.3.4(react@18.2.0)
+      react-router-navigation-prompt:
+        specifier: 1.9.6
+        version: 1.9.6(react-router-dom@5.3.4)(react@18.2.0)
+      react-select:
+        specifier: 5.7.4
+        version: 5.7.4(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)
+      react-toastify:
+        specifier: 8.2.0
+        version: 8.2.0(react-dom@18.2.0)(react@18.2.0)
+      sanitize-filename:
+        specifier: 1.6.3
+        version: 1.6.3
+      sass:
+        specifier: 1.64.0
+        version: 1.64.0
+      sass-loader:
+        specifier: 12.6.0
+        version: 12.6.0(sass@1.64.0)(webpack@5.88.2)
+      scheduler:
+        specifier: 0.23.0
+        version: 0.23.0
+      scmp:
+        specifier: 2.1.0
+        version: 2.1.0
+      sharp:
+        specifier: 0.31.3
+        version: 0.31.3
+      slate:
+        specifier: 0.91.4
+        version: 0.91.4
+      slate-history:
+        specifier: 0.86.0
+        version: 0.86.0(slate@0.91.4)
+      slate-hyperscript:
+        specifier: 0.81.3
+        version: 0.81.3(slate@0.91.4)
+      slate-react:
+        specifier: 0.92.0
+        version: 0.92.0(react-dom@18.2.0)(react@18.2.0)(slate@0.91.4)
+      style-loader:
+        specifier: 2.0.0
+        version: 2.0.0(webpack@5.88.2)
+      swc-loader:
+        specifier: 0.2.3
+        version: 0.2.3(@swc/core@1.3.70)(webpack@5.88.2)
+      swc-minify-webpack-plugin:
+        specifier: 2.1.1
+        version: 2.1.1(@swc/core@1.3.70)(webpack@5.88.2)
+      terser-webpack-plugin:
+        specifier: 5.3.9
+        version: 5.3.9(@swc/core@1.3.70)(webpack@5.88.2)
+      ts-essentials:
+        specifier: 7.0.3
+        version: 7.0.3(typescript@4.9.5)
+      url-loader:
+        specifier: 4.1.1
+        version: 4.1.1(file-loader@6.2.0)(webpack@5.88.2)
+      use-context-selector:
+        specifier: 1.4.1
+        version: 1.4.1(react-dom@18.2.0)(react@18.2.0)(scheduler@0.23.0)
+      uuid:
+        specifier: 8.3.2
+        version: 8.3.2
+      webpack:
+        specifier: 5.88.2
+        version: 5.88.2(@swc/core@1.3.70)(webpack-cli@4.10.0)
+      webpack-bundle-analyzer:
+        specifier: 4.9.0
+        version: 4.9.0
+      webpack-cli:
+        specifier: 4.10.0
+        version: 4.10.0(webpack-bundle-analyzer@4.9.0)(webpack@5.88.2)
+      webpack-dev-middleware:
+        specifier: 6.0.1
+        version: 6.0.1(webpack@5.88.2)
+      webpack-hot-middleware:
+        specifier: 2.25.4
+        version: 2.25.4
+    devDependencies:
+      '@playwright/test':
+        specifier: 1.33.0
+        version: 1.33.0
+      '@release-it/conventional-changelog':
+        specifier: 7.0.0
+        version: 7.0.0(release-it@16.1.3)
+      '@swc/jest':
+        specifier: 0.2.27
+        version: 0.2.27(@swc/core@1.3.70)
+      '@testing-library/jest-dom':
+        specifier: 5.17.0
+        version: 5.17.0
+      '@testing-library/react':
+        specifier: 13.4.0
+        version: 13.4.0(react-dom@18.2.0)(react@18.2.0)
+      '@types/asap':
+        specifier: 2.0.0
+        version: 2.0.0
+      '@types/body-parser':
+        specifier: 1.19.2
+        version: 1.19.2
+      '@types/compression':
+        specifier: 1.7.2
+        version: 1.7.2
+      '@types/connect-history-api-fallback':
+        specifier: 1.5.0
+        version: 1.5.0
+      '@types/express':
+        specifier: 4.17.17
+        version: 4.17.17
+      '@types/express-fileupload':
+        specifier: 1.4.1
+        version: 1.4.1
+      '@types/express-rate-limit':
+        specifier: 5.1.3
+        version: 5.1.3
+      '@types/express-serve-static-core':
+        specifier: 4.17.35
+        version: 4.17.35
+      '@types/extract-text-webpack-plugin':
+        specifier: 3.0.7
+        version: 3.0.7
+      '@types/file-loader':
+        specifier: 4.2.1
+        version: 4.2.1
+      '@types/hapi__joi':
+        specifier: 17.1.9
+        version: 17.1.9
+      '@types/html-webpack-plugin':
+        specifier: 3.2.6
+        version: 3.2.6
+      '@types/ignore-styles':
+        specifier: 5.0.0
+        version: 5.0.0
+      '@types/is-hotkey':
+        specifier: 0.1.7
+        version: 0.1.7
+      '@types/isomorphic-fetch':
+        specifier: 0.0.36
+        version: 0.0.36
+      '@types/jest':
+        specifier: 26.0.24
+        version: 26.0.24
+      '@types/joi':
+        specifier: 14.3.4
+        version: 14.3.4
+      '@types/json-schema':
+        specifier: 7.0.12
+        version: 7.0.12
+      '@types/jsonwebtoken':
+        specifier: 8.5.9
+        version: 8.5.9
+      '@types/method-override':
+        specifier: 0.0.32
+        version: 0.0.32
+      '@types/mime':
+        specifier: 2.0.3
+        version: 2.0.3
+      '@types/mini-css-extract-plugin':
+        specifier: 1.4.3
+        version: 1.4.3(@swc/core@1.3.70)(webpack-cli@4.10.0)
+      '@types/minimist':
+        specifier: 1.2.2
+        version: 1.2.2
+      '@types/mkdirp':
+        specifier: 1.0.2
+        version: 1.0.2
+      '@types/mongoose-aggregate-paginate-v2':
+        specifier: 1.0.9
+        version: 1.0.9
+      '@types/node':
+        specifier: 20.4.2
+        version: 20.4.2
+      '@types/node-fetch':
+        specifier: 2.6.4
+        version: 2.6.4
+      '@types/nodemailer':
+        specifier: 6.4.8
+        version: 6.4.8
+      '@types/optimize-css-assets-webpack-plugin':
+        specifier: 5.0.5
+        version: 5.0.5
+      '@types/passport':
+        specifier: 1.0.12
+        version: 1.0.12
+      '@types/passport-anonymous':
+        specifier: 1.0.3
+        version: 1.0.3
+      '@types/passport-jwt':
+        specifier: 3.0.9
+        version: 3.0.9
+      '@types/passport-local':
+        specifier: 1.0.35
+        version: 1.0.35
+      '@types/pluralize':
+        specifier: 0.0.29
+        version: 0.0.29
+      '@types/prismjs':
+        specifier: 1.26.0
+        version: 1.26.0
+      '@types/probe-image-size':
+        specifier: 7.2.0
+        version: 7.2.0
+      '@types/prop-types':
+        specifier: 15.7.5
+        version: 15.7.5
+      '@types/qs':
+        specifier: 6.9.7
+        version: 6.9.7
+      '@types/qs-middleware':
+        specifier: 1.0.1
+        version: 1.0.1
+      '@types/react':
+        specifier: 18.2.15
+        version: 18.2.15
+      '@types/react-datepicker':
+        specifier: 4.11.2
+        version: 4.11.2(react-dom@18.2.0)(react@18.2.0)
+      '@types/react-dom':
+        specifier: 18.2.7
+        version: 18.2.7
+      '@types/react-helmet':
+        specifier: 6.1.6
+        version: 6.1.6
+      '@types/react-router-dom':
+        specifier: 5.3.3
+        version: 5.3.3
+      '@types/shelljs':
+        specifier: 0.8.12
+        version: 0.8.12
+      '@types/testing-library__jest-dom':
+        specifier: 5.14.8
+        version: 5.14.8
+      '@types/uuid':
+        specifier: 8.3.4
+        version: 8.3.4
+      '@types/webpack-bundle-analyzer':
+        specifier: 4.6.0
+        version: 4.6.0(@swc/core@1.3.70)(webpack-cli@4.10.0)
+      '@types/webpack-env':
+        specifier: 1.18.1
+        version: 1.18.1
+      '@types/webpack-hot-middleware':
+        specifier: 2.25.6
+        version: 2.25.6(@swc/core@1.3.70)(webpack-cli@4.10.0)
+      confusing-browser-globals:
+        specifier: 1.0.11
+        version: 1.0.11
+      copyfiles:
+        specifier: 2.4.1
+        version: 2.4.1
+      cross-env:
+        specifier: 7.0.3
+        version: 7.0.3
+      form-data:
+        specifier: 3.0.1
+        version: 3.0.1
+      get-port:
+        specifier: 5.1.1
+        version: 5.1.1
+      glob:
+        specifier: 8.1.0
+        version: 8.1.0
+      graphql-request:
+        specifier: 3.7.0
+        version: 3.7.0(graphql@16.7.1)
+      jest:
+        specifier: 29.6.1
+        version: 29.6.1(@types/node@20.4.2)(ts-node@10.9.1)
+      jest-environment-jsdom:
+        specifier: 29.6.1
+        version: 29.6.1
+      mongodb-memory-server:
+        specifier: 8.13.0
+        version: 8.13.0
+      node-fetch:
+        specifier: 2.6.12
+        version: 2.6.12
+      nodemon:
+        specifier: 3.0.1
+        version: 3.0.1
+      object.assign:
+        specifier: 4.1.4
+        version: 4.1.4
+      object.entries:
+        specifier: 1.1.6
+        version: 1.1.6
+      passport-strategy:
+        specifier: 1.0.0
+        version: 1.0.0
+      release-it:
+        specifier: 16.1.3
+        version: 16.1.3
+      rimraf:
+        specifier: 3.0.2
+        version: 3.0.2
+      serve-static:
+        specifier: 1.15.0
+        version: 1.15.0
+      shelljs:
+        specifier: 0.8.5
+        version: 0.8.5
+      slash:
+        specifier: 3.0.0
+        version: 3.0.0
+      terser:
+        specifier: 5.19.2
+        version: 5.19.2
+      ts-node:
+        specifier: 10.9.1
+        version: 10.9.1(@swc/core@1.3.70)(@types/node@20.4.2)(typescript@4.9.5)
+      typescript:
+        specifier: 4.9.5
+        version: 4.9.5
+
+  packages/richtext-slate:
+    dependencies:
+      slate:
+        specifier: ^0.91.4
+        version: 0.91.4
+      slate-history:
+        specifier: ^0.86.0
+        version: 0.86.0(slate@0.91.4)
+      slate-hyperscript:
+        specifier: ^0.81.3
+        version: 0.81.3(slate@0.91.4)
+      slate-react:
+        specifier: ^0.92.0
+        version: 0.92.0(react-dom@18.2.0)(react@18.2.0)(slate@0.91.4)
+    devDependencies:
+      '@types/pg':
+        specifier: ^8.10.2
+        version: 8.10.2
+      payload:
+        specifier: workspace:*
+        version: link:../payload
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+      typescript:
+        specifier: ^4.9.4
+        version: 4.9.5
 
 packages:
 
@@ -3600,6 +3867,14 @@ packages:
     resolution: {integrity: sha512-QFdJ2TiAEoXfEQSNDISJR1Tm51I78CymqcBa8imbjo6dNNu+l2huDxxbDEIoFIwOSKMkOfHEikyDuZ38WwWsmw==}
     dependencies:
       '@types/express': 4.17.17
+    dev: true
+
+  /@types/pg@8.10.2:
+    resolution: {integrity: sha512-MKFs9P6nJ+LAeHLU3V0cODEOgyThJ3OAnmOlsZsxux6sfQs3HRXR5bBn7xG5DjckEFhTAxsXi7k7cd0pCMxpJw==}
+    dependencies:
+      '@types/node': 20.4.2
+      pg-protocol: 1.6.0
+      pg-types: 4.0.1
     dev: true
 
   /@types/pluralize@0.0.29:
@@ -9655,6 +9930,10 @@ packages:
       es-abstract: 1.22.1
     dev: true
 
+  /obuf@1.1.2:
+    resolution: {integrity: sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==}
+    dev: true
+
   /on-exit-leak-free@2.1.0:
     resolution: {integrity: sha512-VuCaZZAjReZ3vUwgOB8LxAosIurDiAW0s13rI1YwmaP++jvcxP77AWoQvenZebpCA2m8WC1/EosPYPMjnRAp/w==}
     dev: false
@@ -10013,6 +10292,33 @@ packages:
 
   /pend@1.2.0:
     resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
+    dev: true
+
+  /pg-int8@1.0.1:
+    resolution: {integrity: sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==}
+    engines: {node: '>=4.0.0'}
+    dev: true
+
+  /pg-numeric@1.0.2:
+    resolution: {integrity: sha512-BM/Thnrw5jm2kKLE5uJkXqqExRUY/toLHda65XgFTBTFYZyopbKjBe29Ii3RbkvlsMoFwD+tHeGaCjjv0gHlyw==}
+    engines: {node: '>=4'}
+    dev: true
+
+  /pg-protocol@1.6.0:
+    resolution: {integrity: sha512-M+PDm637OY5WM307051+bsDia5Xej6d9IR4GwJse1qA1DIhiKlksvrneZOYQq42OM+spubpcNYEo2FcKQrDk+Q==}
+    dev: true
+
+  /pg-types@4.0.1:
+    resolution: {integrity: sha512-hRCSDuLII9/LE3smys1hRHcu5QGcLs9ggT7I/TCs0IE+2Eesxi9+9RWAAwZ0yaGjxoWICF/YHLOEjydGujoJ+g==}
+    engines: {node: '>=10'}
+    dependencies:
+      pg-int8: 1.0.1
+      pg-numeric: 1.0.2
+      postgres-array: 3.0.2
+      postgres-bytea: 3.0.0
+      postgres-date: 2.0.1
+      postgres-interval: 3.0.0
+      postgres-range: 1.1.3
     dev: true
 
   /picocolors@1.0.0:
@@ -10791,6 +11097,32 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
     dev: false
+
+  /postgres-array@3.0.2:
+    resolution: {integrity: sha512-6faShkdFugNQCLwucjPcY5ARoW1SlbnrZjmGl0IrrqewpvxvhSLHimCVzqeuULCbG0fQv7Dtk1yDbG3xv7Veog==}
+    engines: {node: '>=12'}
+    dev: true
+
+  /postgres-bytea@3.0.0:
+    resolution: {integrity: sha512-CNd4jim9RFPkObHSjVHlVrxoVQXz7quwNFpz7RY1okNNme49+sVyiTvTRobiLV548Hx/hb1BG+iE7h9493WzFw==}
+    engines: {node: '>= 6'}
+    dependencies:
+      obuf: 1.1.2
+    dev: true
+
+  /postgres-date@2.0.1:
+    resolution: {integrity: sha512-YtMKdsDt5Ojv1wQRvUhnyDJNSr2dGIC96mQVKz7xufp07nfuFONzdaowrMHjlAzY6GDLd4f+LUHHAAM1h4MdUw==}
+    engines: {node: '>=12'}
+    dev: true
+
+  /postgres-interval@3.0.0:
+    resolution: {integrity: sha512-BSNDnbyZCXSxgA+1f5UU2GmwhoI0aU5yMxRGO8CdFEcY2BQF9xm/7MqKnYoM1nJDk8nONNWDk9WeSmePFhQdlw==}
+    engines: {node: '>=12'}
+    dev: true
+
+  /postgres-range@1.1.3:
+    resolution: {integrity: sha512-VdlZoocy5lCP0c/t66xAfclglEapXPCIVhqqJRncYpvbCgImF0w67aPKfbqUMr72tO2k5q0TdTZwCLjPTI6C9g==}
+    dev: true
 
   /prebuild-install@7.1.1:
     resolution: {integrity: sha512-jAXscXWMcCK8GgCoHOfIr0ODh5ai8mj63L2nWrjuAgXE6tDyYGnx4/8o/rCgU+B4JSyZBKbeZqzhtwtC3ovxjw==}

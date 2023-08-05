@@ -65,7 +65,7 @@ module.exports = {
     // Forbid the use of extraneous packages
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
     // paths are treated both as absolute paths, and relative to process.cwd()
-    'import/no-extraneous-dependencies': ['error'],
+    'import/no-extraneous-dependencies': ['error', { packageDir: ['./', './packages/payload/', './packages/richtext-slate/'] }],
 
     // Forbid mutable exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md

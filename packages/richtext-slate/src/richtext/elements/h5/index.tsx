@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import H5Icon from 'payload/dist/admin/components/icons/headings/H5';
+import H5Icon from 'payload/src/admin/components/icons/headings/H5';
 import ElementButton from '../Button';
 
 const H5 = ({ attributes, children }) => (

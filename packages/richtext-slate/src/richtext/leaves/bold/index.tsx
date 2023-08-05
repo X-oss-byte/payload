@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import BoldIcon from 'payload/dist/admin/components/icons/Bold';
+import BoldIcon from 'payload/src/admin/components/icons/Bold';
 import LeafButton from '../Button';
 
 const Bold = ({ attributes, children }) => (

@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React, { ElementType, useCallback, useState } from 'react';
 import { useSlate } from 'slate-react';
-import Tooltip from 'payload/dist/admin/components/elements/Tooltip';
+import Tooltip from 'payload/src/admin/components/elements/Tooltip';
 import isElementActive from './isActive';
 import toggleElement from './toggle';
 import { ButtonProps } from './types';

@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import H3Icon from 'payload/dist/admin/components/icons/headings/H3';
+import H3Icon from 'payload/src/admin/components/icons/headings/H3';
 import ElementButton from '../Button';
 
 const H3 = ({ attributes, children }) => (

@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import StrikethroughIcon from 'payload/dist/admin/components/icons/Strikethrough';
+import StrikethroughIcon from 'payload/src/admin/components/icons/Strikethrough';
 import LeafButton from '../Button';
 
 const Strikethrough = ({ attributes, children }) => (

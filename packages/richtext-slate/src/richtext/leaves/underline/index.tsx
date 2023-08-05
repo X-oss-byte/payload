@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import UnderlineIcon from 'payload/dist/admin/components/icons/Underline';
+import UnderlineIcon from 'payload/src/admin/components/icons/Underline';
 import LeafButton from '../Button';
 
 const Underline = ({ attributes, children }) => (

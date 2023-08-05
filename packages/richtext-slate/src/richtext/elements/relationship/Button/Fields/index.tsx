@@ -1,11 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React, { Fragment, useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useConfig } from 'payload/dist/admin/components/utilities/Config';
-import { useAuth } from 'payload/dist/admin/components/utilities/Auth';
-import { useFormFields } from 'payload/dist/admin/components/forms/Form/context';
-import Relationship from 'payload/dist/admin/components/forms/field-types/Relationship';
-import Select from 'payload/dist/admin/components/forms/field-types/Select';
+import { useConfig } from 'payload/src/admin/components/utilities/Config';
+import { useAuth } from 'payload/src/admin/components/utilities/Auth';
+import { useFormFields } from 'payload/src/admin/components/forms/Form/context';
+import Relationship from 'payload/src/admin/components/forms/field-types/Relationship';
+import Select from 'payload/src/admin/components/forms/field-types/Select';
 
 const createOptions = (collections, permissions) => collections.reduce((options, collection) => {
   if (permissions?.collections?.[collection.slug]?.read?.permission && collection?.admin?.enableRichTextRelationship) {

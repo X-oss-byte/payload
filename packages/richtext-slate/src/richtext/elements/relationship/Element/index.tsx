@@ -3,13 +3,13 @@ import React, { HTMLAttributes, useCallback, useReducer, useState } from 'react'
 import { ReactEditor, useFocused, useSelected, useSlateStatic } from 'slate-react';
 import { useTranslation } from 'react-i18next';
 import { Transforms } from 'slate';
-import { useConfig } from 'payload/dist/admin/components/utilities/Config';
-import usePayloadAPI from 'payload/dist/admin/hooks/usePayloadAPI';
-import { useDocumentDrawer } from 'payload/dist/admin/components/elements/DocumentDrawer';
-import Button from 'payload/dist/admin/components/elements/Button';
-import { useListDrawer } from 'payload/dist/admin/components/elements/ListDrawer';
-import { getTranslation } from 'payload/dist/utilities/getTranslation';
-import { RichTextProps } from 'payload/dist/admin/components/forms/field-types/RichText/types';
+import { useConfig } from 'payload/src/admin/components/utilities/Config';
+import usePayloadAPI from 'payload/src/admin/hooks/usePayloadAPI';
+import { useDocumentDrawer } from 'payload/src/admin/components/elements/DocumentDrawer';
+import Button from 'payload/src/admin/components/elements/Button';
+import { useListDrawer } from 'payload/src/admin/components/elements/ListDrawer';
+import { getTranslation } from 'payload/src/utilities/getTranslation';
+import { RichTextProps } from 'payload/src/admin/components/forms/field-types/RichText/types';
 import { EnabledRelationshipsCondition } from '../../EnabledRelationshipsCondition';
 
 import './index.scss';

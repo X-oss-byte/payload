@@ -27,12 +27,12 @@ module.exports = {
         '@typescript-eslint/no-use-before-define': 'off',
         '@typescript-eslint/consistent-type-imports': 'warn',
         'jest/prefer-strict-equal': 'off',
-      }
+      },
     },
     {
       files: ['test/**/e2e.spec.ts'],
       extends: [
-        'plugin:playwright/playwright-test'
+        'plugin:playwright/playwright-test',
       ],
       rules: {
         'jest/consistent-test-it': 'off',
@@ -41,7 +41,7 @@ module.exports = {
         'jest/prefer-strict-equal': 'off',
         'jest/expect-expect': 'off',
         'jest-dom/prefer-to-have-attribute': 'off',
-      }
+      },
     },
     {
       files: ['*.ts', '*.tsx'],
@@ -78,7 +78,7 @@ module.exports = {
     },
   ],
   rules: {
-    'import/no-extraneous-dependencies': ['error', { packageDir: './' }],
+    'import/no-extraneous-dependencies': ['error', { packageDir: ['./', './packages/payload/', './packages/richtext-slate/'] }],
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'import/prefer-default-export': 'off',
     'react/prop-types': 'off',

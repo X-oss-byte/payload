@@ -2,8 +2,8 @@
 import React, { Fragment, useCallback, useEffect, useState } from 'react';
 import { ReactEditor, useSlate } from 'slate-react';
 import { useTranslation } from 'react-i18next';
-import RelationshipIcon from 'payload/dist/admin/components/icons/Relationship';
-import { useListDrawer } from 'payload/dist/admin/components/elements/ListDrawer';
+import RelationshipIcon from 'payload/src/admin/components/icons/Relationship';
+import { useListDrawer } from 'payload/src/admin/components/elements/ListDrawer';
 import ElementButton from '../../Button';
 import { injectVoidElement } from '../../injectVoid';
 import { EnabledRelationshipsCondition } from '../../EnabledRelationshipsCondition';

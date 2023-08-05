@@ -2,8 +2,8 @@
 import React, { Fragment, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ReactEditor, useSlate } from 'slate-react';
-import UploadIcon from 'payload/dist/admin/components/icons/Upload';
-import { useListDrawer } from 'payload/dist/admin/components/elements/ListDrawer';
+import UploadIcon from 'payload/src/admin/components/icons/Upload';
+import { useListDrawer } from 'payload/src/admin/components/elements/ListDrawer';
 import ElementButton from '../../Button';
 import { injectVoidElement } from '../../injectVoid';
 import { EnabledRelationshipsCondition } from '../../EnabledRelationshipsCondition';

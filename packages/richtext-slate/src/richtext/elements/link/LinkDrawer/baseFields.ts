@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { extractTranslations } from 'payload/dist/translations/extractTranslations';
-import { Config } from 'payload/dist/config/types';
-import { Field } from 'payload/dist/fields/config/types';
+import { extractTranslations } from 'payload/src/translations/extractTranslations';
+import { Config } from 'payload/src/config/types';
+import { Field } from 'payload/src/fields/config/types';
 
 const translations = extractTranslations([
   'fields:textToDisplay',

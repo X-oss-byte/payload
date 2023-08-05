@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import ItalicIcon from 'payload/dist/admin/components/icons/Italic';
+import ItalicIcon from 'payload/src/admin/components/icons/Italic';
 import LeafButton from '../Button';
 
 const Italic = ({ attributes, children }) => (

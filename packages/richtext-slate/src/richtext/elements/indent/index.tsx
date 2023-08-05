@@ -2,8 +2,8 @@
 import React, { useCallback } from 'react';
 import { useSlate, ReactEditor } from 'slate-react';
 import { Editor, Element, Text, Transforms } from 'slate';
-import IndentLeft from 'payload/dist/admin/components/icons/IndentLeft';
-import IndentRight from 'payload/dist/admin/components/icons/IndentRight';
+import IndentLeft from 'payload/src/admin/components/icons/IndentLeft';
+import IndentRight from 'payload/src/admin/components/icons/IndentRight';
 import { baseClass } from '../Button';
 import isElementActive from '../isActive';
 import listTypes from '../listTypes';

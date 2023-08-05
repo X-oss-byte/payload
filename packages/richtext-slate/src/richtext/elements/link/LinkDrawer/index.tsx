@@ -1,11 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Drawer } from 'payload/dist/admin/components/elements/Drawer';
-import Form from 'payload/dist/admin/components/forms/Form';
-import FormSubmit from 'payload/dist/admin/components/forms/Submit';
-import fieldTypes from 'payload/dist/admin/components/forms/field-types';
-import RenderFields from 'payload/dist/admin/components/forms/RenderFields';
+import { Drawer } from 'payload/src/admin/components/elements/Drawer';
+import Form from 'payload/src/admin/components/forms/Form';
+import FormSubmit from 'payload/src/admin/components/forms/Submit';
+import fieldTypes from 'payload/src/admin/components/forms/field-types';
+import RenderFields from 'payload/src/admin/components/forms/RenderFields';
 import { Props } from './types';
 
 import './index.scss';

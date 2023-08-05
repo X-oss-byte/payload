@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import CodeIcon from 'payload/dist/admin/components/icons/Code';
+import CodeIcon from 'payload/src/admin/components/icons/Code';
 import LeafButton from '../Button';
 
 const Code = ({ attributes, children }) => (

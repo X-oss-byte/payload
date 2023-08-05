@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import OLIcon from 'payload/dist/admin/components/icons/OrderedList';
+import OLIcon from 'payload/src/admin/components/icons/OrderedList';
 import ListButton from '../ListButton';
 
 import './index.scss';
