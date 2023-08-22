@@ -1,0 +1,1 @@
+{"version":3,"file":"killTransaction.js","sourceRoot":"","sources":["../../src/utilities/killTransaction.ts"],"names":[],"mappings":";;;AAEA;;GAEG;AACI,KAAK,UAAU,eAAe,CAAC,GAAmB;IACvD,MAAM,EACJ,aAAa,EACb,OAAO,GACR,GAAG,GAAG,CAAC;IACR,IAAI,aAAa,EAAE;QACjB,MAAM,OAAO,CAAC,EAAE,CAAC,mBAAmB,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;QACxD,OAAO,GAAG,CAAC,aAAa,CAAC;KAC1B;AACH,CAAC;AATD,0CASC"}

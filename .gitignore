@@ -1,6 +1,5 @@
 coverage
 package-lock.json
-dist
 .idea
 test-results
 
@@ -233,7 +232,6 @@ demo/media
 demo/files
 
 # Ignore build folder
-build
 
 # Ignore built components
 components/index.js
