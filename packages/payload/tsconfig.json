@@ -39,7 +39,7 @@
       "swc": true,
     },
     "include": [
-      "src/",
+      "src/**/*",
     ],
     "exclude": [
       "dist",

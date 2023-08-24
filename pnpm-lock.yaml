@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -32,6 +32,9 @@ importers:
       mongoose-paginate-v2:
         specifier: 1.7.22
         version: 1.7.22
+      payload:
+        specifier: workspace:*
+        version: link:../payload
       uuid:
         specifier: 9.0.0
         version: 9.0.0
@@ -42,9 +45,6 @@ importers:
       mongodb-memory-server:
         specifier: 8.13.0
         version: 8.13.0
-      payload:
-        specifier: workspace:*
-        version: link:../payload
 
   packages/db-postgres:
     dependencies:

@@ -30,3 +30,7 @@ export default payload;
 module.exports = payload;
 // Export RequestContext type
 export type { RequestContext };
+
+export function something() {
+  return "hi";
+}
