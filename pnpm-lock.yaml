@@ -289,9 +289,9 @@ importers:
       pino-pretty:
         specifier: 10.2.0
         version: 10.2.0
-      pluralize:
-        specifier: 8.0.0
-        version: 8.0.0
+      pluralize-esm:
+        specifier: 9.0.5
+        version: 9.0.5
       postcss:
         specifier: 8.4.27
         version: 8.4.27
@@ -533,9 +533,6 @@ importers:
       '@types/passport-local':
         specifier: 1.0.35
         version: 1.0.35
-      '@types/pluralize':
-        specifier: 0.0.29
-        version: 0.0.29
       '@types/prismjs':
         specifier: 1.26.0
         version: 1.26.0
@@ -4153,10 +4150,6 @@ packages:
       '@types/node': 20.4.2
       pg-protocol: 1.6.0
       pg-types: 4.0.1
-
-  /@types/pluralize@0.0.29:
-    resolution: {integrity: sha512-BYOID+l2Aco2nBik+iYS4SZX0Lf20KPILP5RGmM1IgzdwNdTs0eebiFriOPcej1sX9mLnSoiNte5zcFxssgpGA==}
-    dev: true
 
   /@types/prettier@2.7.3:
     resolution: {integrity: sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==}
@@ -10972,9 +10965,9 @@ packages:
     hasBin: true
     dev: true
 
-  /pluralize@8.0.0:
-    resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
-    engines: {node: '>=4'}
+  /pluralize-esm@9.0.5:
+    resolution: {integrity: sha512-Kb2dcpMsIutFw2hYrN0EhsAXOUJTd6FVMIxvNAkZCMQLVt9NGZqQczvGpYDxNWCZeCWLHUPxQIBudWzt1h7VVA==}
+    engines: {node: '>=14.0.0'}
     dev: false
 
   /postcss-attribute-case-insensitive@6.0.2(postcss@8.4.27):

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "The officially supported MongoDB database adapter for Payload",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/payloadcms/payload",
   "author": "Payload CMS, Inc.",
   "license": "MIT",
