@@ -1,4 +1,4 @@
-import test from 'drizzle-orm';
+import { sql } from 'drizzle-orm';
 import toSnakeCase from 'to-snake-case';
 import type { Find } from 'payload/database';
 import type { PayloadRequest } from 'payload/types';

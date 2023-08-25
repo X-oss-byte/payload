@@ -1,6 +1,7 @@
 {
     "extends": "../../tsconfig.json",
     "compilerOptions": {
+      "types": ["jest", "node", "@types/jest"],
       "composite": true,
       "target": "ESNext",
       "sourceMap": true,
@@ -47,8 +48,6 @@
       "dist",
       "build",
       "tests",
-      "**/*.spec.js",
-      "**/*.spec.ts",
       "node_modules",
       ".eslintrc.js"
     ],
